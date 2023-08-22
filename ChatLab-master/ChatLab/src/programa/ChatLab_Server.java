@@ -87,7 +87,7 @@ class MarcoServidor extends JFrame implements Runnable{
 					paqueteReenvio.close();
 					enviaDestinatario.close();
 					miSocket.close();
-				}else{
+				}else  {
 					//----------DETECTA ONLINE----------------------
 					InetAddress localizacion = miSocket.getInetAddress();
 					String ipRemota = localizacion.getHostAddress();
